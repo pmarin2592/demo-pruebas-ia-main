@@ -1,0 +1,3 @@
+{"total": {"lines":{"total":56,"covered":55,"skipped":0,"pct":98.21},"statements":{"total":59,"covered":58,"skipped":0,"pct":98.3},"functions":{"total":14,"covered":13,"skipped":0,"pct":92.85},"branches":{"total":47,"covered":47,"skipped":0,"pct":100},"branchesTrue":{"total":0,"covered":0,"skipped":0,"pct":"Unknown"}}
+,"C:\\Users\\pmari\\OneDrive\\Para Revisar\\Documentos\\GitHub\\demo-pruebas-ia-main\\src\\reservas.js": {"lines":{"total":56,"covered":55,"skipped":0,"pct":98.21},"functions":{"total":14,"covered":13,"skipped":0,"pct":92.85},"statements":{"total":59,"covered":58,"skipped":0,"pct":98.3},"branches":{"total":47,"covered":47,"skipped":0,"pct":100}}
+}

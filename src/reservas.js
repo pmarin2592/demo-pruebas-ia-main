@@ -72,7 +72,7 @@ export class Agenda {
 
     // RN-05 horario de atención
     const fin = inicio + duracion;
-    if (inicio < HORA_APERTURA || inicio >= HORA_CIERRE) {
+    if (inicio < HORA_APERTURA || fin > HORA_CIERRE) {
       throw new ErrorValidacion('RN-05', 'La reserva debe estar entre las 08:00 y las 20:00');
     }
 
