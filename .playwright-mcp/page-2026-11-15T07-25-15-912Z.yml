@@ -1,0 +1,41 @@
+- generic [active] [ref=e1]:
+  - heading "Registrar reserva (RF-01)" [level=1] [ref=e2]
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - text: Recurso
+      - combobox "Recurso" [ref=e5]:
+        - option "Sala A (capacidad 10)" [selected]
+        - option "Mesa 1 (capacidad 4)"
+    - generic [ref=e6]:
+      - text: Fecha
+      - textbox "Fecha" [ref=e7]
+    - generic [ref=e8]:
+      - text: Hora de inicio
+      - textbox "Hora de inicio" [ref=e9]
+    - generic [ref=e10]:
+      - text: Duración (min)
+      - combobox "Duración (min)" [ref=e11]:
+        - option "30"
+        - option "60" [selected]
+        - option "90"
+        - option "120"
+    - generic [ref=e12]:
+      - text: Personas
+      - spinbutton "Personas" [ref=e13]: "2"
+    - generic [ref=e14]:
+      - text: Responsable
+      - textbox "Responsable" [ref=e15]
+    - button "Registrar" [ref=e16] [cursor=pointer]
+  - status [ref=e17]
+  - heading "Agenda" [level=2] [ref=e18]
+  - table [ref=e19]:
+    - rowgroup [ref=e20]:
+      - row [ref=e21]:
+        - columnheader "#" [ref=e22]
+        - columnheader "Recurso" [ref=e23]
+        - columnheader "Fecha" [ref=e24]
+        - columnheader "Horario" [ref=e25]
+        - columnheader "Personas" [ref=e26]
+        - columnheader "Responsable" [ref=e27]
+        - columnheader [ref=e28]
+    - rowgroup
